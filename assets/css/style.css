@@ -16,6 +16,9 @@ select{
   font-size: 15px;
   margin: 5px 0;
 }
+::placeholder{
+  font-family: 'Raleway', sans-serif;
+}
 p{
   line-height: 1.5;
 }
@@ -34,10 +37,17 @@ input[type="text"]{
 }
 input[type="checkbox"]{
   margin: 5px 0;
+
+  /*background-color: none;*/
 }
 span{
   font-style: italic;
   display: inline-block;
+}
+.red{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }
 fieldset{
   border: none;
@@ -54,16 +64,23 @@ a{
   text-decoration: none;
   color: rgb(234, 102, 22);
 }
+.conteiner-button{
+  text-align: center;
+}
 .button{
   background-color: rgb(234, 102, 22);
   color: white;
   padding: 8px 10px;
   border: none;
   border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+}
+.texto-final{
+  text-align: right;
 }
 footer{
   width: 100%;
-  background-color: rgb(79, 79, 79);
+  background-color: #3E3F40;
   padding: 0 400px;
   height: 200px;
   color: white;
@@ -85,4 +102,12 @@ footer a{
   text-align: center;
   display: inline-block;
   width: 500px;
+}
+.footer-rigth img{
+  width: 29px;
+  height: 28px;
+  margin: 10px;
+}
+a .facebook{
+  width: 15px;
 }

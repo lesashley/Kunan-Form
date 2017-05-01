@@ -20,8 +20,7 @@
         <label for="date">Fecha de Nacimiento(dd/mm/yyyy)</label><br>
         <input type="text" name="" value=""><br>
         <label>Región de nacimiento</label><br>
-        <select class="" name="">
-          <option value="">Seleccione</option>
+        <select class="region-nac" name="">
           <option value="">Amazonas</option>
           <option value="">Áncash</option>
           <option value="">Apurímac</option>
@@ -64,8 +63,7 @@
 
         </select><br>
         <label for="">Región de residencia</label><br>
-        <select class="" name="">
-          <option value="">Seleccione</option>
+        <select class="region-res" name="">
           <option value="">Amazonas</option>
           <option value="">Áncash</option>
           <option value="">Apurímac</option>
@@ -103,16 +101,16 @@
         <input type="text" name="" value=""><br>
         <label for="">¿Cuándo comenzaron a operar?(dd/mm/yyyy)</label><br>
         <input type="text" name="" value=""><br>
-        <label for="">Tipo de organización</label>
-        <div class="">
-          ONG
-          Fundaciones
-          Asociación civil
-          Empresa
-        </div><br>
+        <label for="">Tipo de organización</label><br>
+        <select class="tipo-org" name="">
+          <option value="">ONG</option>
+          <option value="">Fundaciones</option>
+          <option value="">Asociación civil</option>
+          <option value="">Empresa</option>
+        </select><br>
         <label for="other">Otros</label><br>
         <input type="text" name="" value=""><br><br><br><br><br><br><br>
-        <label for="">¿Está inscrita en Registros Públicos?*</label><br>
+        <label for="">¿Está inscrita en Registros Públicos?<span class="red">*</span></label><br>
         <input type="checkbox" name="" value=""> Si <br>
         <input type="checkbox" name="" value=""> No <br>
       </fieldset>
@@ -179,13 +177,13 @@
         Recomendamos usar datos precisos y evidenciarr citando estudios, investigaciones, publicaciones, etc del problema que plantea. <br>
         (Máximo 80 palabras)
       </label><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea> <br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 80 palabras"></textarea> <br>
       <label for="">¿Cuál es el público objetivo directo e indirecto? (Máximo 20 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Máximo 20 palabras</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 20 palabras"></textarea><br>
       <h3>Claridad sobre la propuesta de valor</h3>
       <label for="">Enuncie cómo su organización aporta a la solución del problema y que beneficios concretos ofrece a sus público objetivo. <br>
       (Máximo 60 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Máximo 60 palabras</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 60 palabras"></textarea><br>
       <h3>Detalle cómo funciona su organización considerando toda la cadena del negocio.</h3>
       <p>Ejemplo:</p>
       <span>"Mi modelo consiste en convoca mujeres recicladoras entre 20 y 45 años. Las capacito en artesanía elaborada a base de plásticos.
@@ -194,21 +192,20 @@
          A partir de este momento, el 25% de las ventas de sus productos se reinvierten en nuestra organizaación, para sostenerla y convocar a una nueva
           promoción de recicladoras."</span> <br>
       <label for="">Efectividad del modelo. (Máximo 100 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Máximo 100 palabras</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 100 palabras"></textarea><br>
       <h3>Detalle la cualidad de los servicios o productos que ofrece y cómo destacan en el mercado.</h3>
       <span>En base al ejemplo anterior: "Mi organización ofrece el servicio de capacitación a recicladoras con un método efectivo que las prepara
          en sólo 3 meses. También ofrezco artesanía hecha a base de plástico que se distinguen por usar diseños contamporáneos
          en empaques también reusables."</span> <br>
       <label for="">Calidad del servicio y/o producto. (Máximo 60 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Máximo 60 palabras</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 60 palabras"></textarea><br>
       <h3>¿Cómo miden el impacto social de su iniciativa?</h3>
       <label for="">Describa el mecanismo, los 2 principales indicadores y la medición actual de los mismos.</label><br>
       <p>Impacto social. (Máximo 100 palabras)</p><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 100 palabras"></textarea><br>
       <h3>Exponga cómo su organización innova, qué procesos y elementos de su modelo son diferentes y competititvos en el mercado.</h3>
       <label for="">Innovación. (Máximo 100 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 100 palabras"></textarea><br>
       <h3>Recursos humanos</h3>
       <span>Pueden indicar cero "0" si no tiene una cantidad.</span><br>
       <fieldset class="left">
@@ -229,7 +226,7 @@
       </fieldset>
       <label for="">Aliados estratégicos <br>
       ¿Cuáles son las organizaciones aliadas de su proyecto y como se vinculan a su modelo? (separar los aliados por una coma ",")</label><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea><br>
+      <textarea name="name" rows="8" cols="150"></textarea><br>
       <h3>Seleccione una o más opciones que describan cómo está financiando su organización.</h3>
       <fieldset class="left">
         <h4>Fuente de Financiamiento</h4>
@@ -253,12 +250,12 @@
         <input type="text" name="" value=""><br>
       </fieldset><br>
       <label for="">¿La organización ha sido premiada antes, dentro o fuera de Perú? Si la respuesta es sí,¿qué premios ha recibido?</label><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 100 palabras"></textarea><br>
       <h2>Sobre el futuro de la organización postulante</h2>
       <label for="">¿Cuál es el principal desafío que debe afrontar para alcanzar el propósito que persigue su iniciativa y cómo lo resolverá? (Máximo 100 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 100 palabras"></textarea><br>
       <label for="">¿Cómo considera que el apoyo integral de Kunan podrá ayudarlo a superar sus desafíos y crecer? (Máximo 100 palabras)</label><br>
-      <textarea name="name" rows="8" cols="150">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea><br>
+      <textarea name="name" rows="8" cols="150" placeholder="Máximo 100 palabras"></textarea><br>
       <h2>Información complementaria</h2>
       <fieldset class="left">
         <label for="">Página web (link)</label><br>
@@ -319,8 +316,10 @@
       postulación no podrá ser editada nuevamente</strong></p>
       <label for="">Quiero enviar mi aplicación</label><br>
       <input type="checkbox" name="" value=""><br>
-      <button type="button" class="button">Guardar</button><br>
-      <p>Encuentra informacion en el <a href="#">glosario de términos</a></p><br>
+      <div class="conteiner-button">
+        <button type="submit" class="button">Guardar</button><br>
+      </div>
+      <p class="texto-final">Encuentra informacion en el <a href="#">glosario de términos</a></p><br>
     </form>
     <footer>
       <div class="footer-left">
@@ -333,10 +332,10 @@
       </div>
       <div class="footer-rigth">
         <h3>Síguenos</h3>
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
-          <a href="#"></a>
+          <a href="#" ><img src="assets/images/facebook.png" alt="" class="facebook"></a>
+          <a href="#"><img src="assets/images/instagram.png" alt=""></a>
+          <a href="#"><img src="assets/images/twitter.png" alt=""></a>
+          <a href="#"><img src="assets/images/youtube.png" alt=""></a>
       </div>
     </footer>
   </body>
