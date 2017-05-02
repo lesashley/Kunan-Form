@@ -8,8 +8,11 @@ body{
   padding: 10px 120px;
   color: rgb(116, 116, 116);
 }
-h1, h2, h4{
-  color: rgb(78, 78, 78) !important;
+.nota{
+  text-decoration: underline;
+}
+h1, h2, h4, h3{
+  color: black !important;
 }
 select{
   font-family: 'Raleway', sans-serif;
@@ -28,17 +31,18 @@ label{
 }
 input[type="text"]{
   border:none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #b5b6b7;
   background: none;
   width: 450px;
   height: 20px;
   margin: 5px 0 8px 0;
-  color: rgb(116, 116, 116);
+  color: #707274;
 }
 input[type="checkbox"]{
   margin: 5px 0;
-
-  /*background-color: none;*/
+}
+input[type="file"]{
+  margin: 5px 0;
 }
 span{
   font-style: italic;
@@ -48,6 +52,9 @@ span{
   color: red;
   font-size: 20px;
   font-weight: bold;
+}
+.reg-publico{
+  margin-top: 600px;
 }
 fieldset{
   border: none;
@@ -78,19 +85,34 @@ a{
 .texto-final{
   text-align: right;
 }
+.oculto-si{
+  display: none;
+}
+.mostrar{
+  display: block !important;
+}
+.mostrar-otros{
+  display: none;
+}
 footer{
+  box-sizing: border-box;
   width: 100%;
   background-color: #3E3F40;
-  padding: 0 400px;
-  height: 200px;
+  height: 250px;
   color: white;
+  position: absolute;
+  left: 0;
 }
 footer a{
   color: rgb(64, 64, 64);
 }
+.text-footer{
+  color: white !important;
+}
 .footer-left{
   display: inline-block;
-  width: 500px;
+  width: 300px;
+  margin: 60px 420px;
 }
 .footer-left li{
   margin-left: -40px;
@@ -101,7 +123,8 @@ footer a{
 .footer-rigth{
   text-align: center;
   display: inline-block;
-  width: 500px;
+  width: 300px;
+  margin-left: 100px;
 }
 .footer-rigth img{
   width: 29px;

@@ -1,0 +1,38 @@
+header{
+  top: 20px;
+  position: fixed;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+nav{
+  text-align: center;
+}
+img{
+  width: 50px;
+}
+ul{
+  display: inline-block;
+}
+li{
+  position: relative;
+  display: inline-block;
+  top: -25px;
+  margin: 0 10px;
+  white-space: pre;
+}
+
+.social-media{
+  position: fixed;
+  left: 0;
+  width: 50px;
+  top: 200px;
+}
+.social-media a{
+  text-decoration: none;
+  color: white;
+}
+a{
+  display: inline-block;
+  font-size: 35px;
+  line-height: 0;
+}
